@@ -1,0 +1,20 @@
+==================================================
+Timestamp : 2025-07-13 20:07:55
+Level     : INFO
+Message   : Step: Drop Nulls
+DataFrame :
+     name   age
+0  Suresh  23.0
+3   Sunil  23.0
+4   Linga  24.0
+
+==================================================
+Timestamp : 2025-07-13 20:12:01
+Level     : INFO
+Message   : Step: Drop Nulls
+DataFrame :
+     name   age
+0  Suresh  23.0
+3   Sunil  23.0
+4   Linga  24.0
+
