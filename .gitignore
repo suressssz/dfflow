@@ -5,6 +5,7 @@ dist/
 
 # 🧠 Python cache
 __pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 
