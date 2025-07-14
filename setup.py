@@ -1,9 +1,5 @@
 from setuptools import setup, find_packages
 
-# Read requirements.txt for install_requires
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
-
 setup(
     name="dfflow",
     version="0.1.0",
@@ -13,7 +9,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/suressssz/dfflow",
     packages=find_packages(),
-    install_requires=requirements,
+    install_requires=[
+        "pandas>=1.3"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

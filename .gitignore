@@ -1,0 +1,28 @@
+# 🛑 Build artifacts
+build/
+dist/
+*.egg-info/
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 🧪 Test result cache
+.pytest_cache/
+
+# 🧰 Virtual environment
+.venv/
+env/
+
+# 📝 IDE settings
+.idea/
+.vscode/
+
+# 💻 OS generated
+.DS_Store
+Thumbs.db
+
+# 🔒 Logs
+*.log
+*.env

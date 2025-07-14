@@ -36,3 +36,23 @@ DataFrame :
 2   Sunil  23.0
 3   Shiva  24.0
 
+==================================================
+Timestamp : 2025-07-15 00:18:08
+Level     : INFO
+Message   : Step: Drop Nulls
+DataFrame :
+     Name   Age
+0  Suresh  23.0
+2   Sunil  23.0
+3   Shiva  24.0
+
+==================================================
+Timestamp : 2025-07-15 00:18:08
+Level     : INFO
+Message   : Step: Lowercase Columns
+DataFrame :
+     name   age
+0  Suresh  23.0
+2   Sunil  23.0
+3   Shiva  24.0
+
